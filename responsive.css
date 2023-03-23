@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+        .call img{
+            display: flex;
+            flex-flow: wrap;
+        }
+    }
+    @media screen and (max-width: 576px){
+        .call img{
+             column-count: 1;
+             column-gap: 1;
+            -webkit-column-count: 1;
+            -webkit-column-gap: 1;
+        }
+    }
